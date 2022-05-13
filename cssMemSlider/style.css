@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+  
+.slider{
+    width: 1100px;
+    height: 600px;
+    overflow: hidden;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.nav{
+    position: absolute;
+    bottom: 16px;
+    left: 50px;
+    transform: translateX(-50%);  
+    display: flex;
+}
+.nav-dot{
+    width: 8px;
+    height: 30px;
+    margin: 6px;
+    cursor: pointer;
+    background-color: #ddd;
+    opacity: .5;
+    transition: all .4s ease;
+}
+.nav-dot{
+    transform: scale(1.1);
+}
+
